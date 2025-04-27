@@ -85,7 +85,7 @@ arch=$( uname -m )
 lbit=$( getconf LONG_BIT )
 kern=$( uname -r )
 default_int="$(ip route list |grep default |grep -o -P '\b[a-z]+\d+\b')"
-SERVER_PORT_V2RAY='46210'
+SERVER_PORT_V2RAY='443'
 #Cambia keys DNSTTT no es llave de APP
 SERVER_DNSTT_KEY='df048842967bb8601299a04baab526b2713c1481a6ff9f63e7458a64ba7c2902'
 
