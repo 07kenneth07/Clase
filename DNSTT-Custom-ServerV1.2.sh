@@ -103,7 +103,7 @@ sleep 7
 
 echo ""
 echo "                    [*] DNSTT Server AUTH.."
-read -p "                 NameServer Domains : " -e -i dns.jaquematedns.xyz DnsNS
+read -p "                 NameServer Domains : " -e -i dnsttus1.jenkenvps.xyz DnsNS
 clear
 
 echo "              [*] Update SERVER.."
